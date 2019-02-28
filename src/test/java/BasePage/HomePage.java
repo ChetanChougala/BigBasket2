@@ -16,6 +16,7 @@ public class HomePage {
              wait = new WebDriverWait(driver, 200);
 
             String base_URL = "https://www.cleartrip.com/";
+            System.out.println(base_URL);
             driver.get(base_URL);
         }
      @AfterTest
