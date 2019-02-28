@@ -17,6 +17,7 @@ public class HomePage {
 
             String base_URL = "https://www.cleartrip.com/";
             System.out.println(base_URL);
+            System.out.println(base_URL+"sasa");
             driver.get(base_URL);
         }
      @AfterTest
